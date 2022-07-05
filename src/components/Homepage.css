@@ -1,14 +1,10 @@
 .navbar {
-  background: #ff8686;
+  background: #ffebeb;
 }
 
 .navbar a {
-  color: #ffebeb !important;
+  color: #736a6a !important;
   font-weight: 500;
-}
-
-.navbar button {
-  color: #ffebeb !important;
 }
 
 @media (min-width: 992px) {
@@ -20,6 +16,14 @@
         -ms-flex-pack: end;
             justify-content: end;
   }
+}
+
+.card {
+  background-color: #ff8686;
+  margin: 0 auto;
+  padding: 180px 100px;
+  border: none;
+  border-radius: 0;
 }
 
 body {

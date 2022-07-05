@@ -1,13 +1,16 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Card from "./UI/Card";
 
 import "./Homepage.css";
 
 const Homepage = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <Card>
+      <section>
+        <p>👋🏼 Hello, I am</p>
+        <h1>I am Akanesi Tohotoa</h1>
+      </section>
+    </Card>
   );
 };
 

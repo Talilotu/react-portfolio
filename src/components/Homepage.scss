@@ -1,7 +1,9 @@
 $primar-color: #ff8686;
 $second-color: #ffebeb;
+$font-color: #736a6a;
 
 @import "./Navbar";
+@import "../components//UI/Card";
 
 body {
   background: $second-color;

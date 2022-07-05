@@ -1,13 +1,9 @@
 .navbar {
-  background: $primar-color;
+  background: $second-color;
 
   & a {
-    color: $second-color !important;
+    color: $font-color !important;
     font-weight: 500;
-  }
-
-  & button {
-    color: $second-color !important;
   }
 
   @media (min-width: 992px) {
