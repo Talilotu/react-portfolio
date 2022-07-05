@@ -1,0 +1,19 @@
+.navbar {
+  background: $primar-color;
+
+  & a {
+    color: $second-color !important;
+    font-weight: 500;
+  }
+
+  & button {
+    color: $second-color !important;
+  }
+
+  @media (min-width: 992px) {
+    .navbar-collapse {
+      display: flex !important;
+      justify-content: end;
+    }
+  }
+}
