@@ -1,6 +1,6 @@
 import React from "react";
-import Homepage from "./components/Homepage";
-import Navbar from "./components/Navbar";
+import Homepage from "./components/Portfolio/Homepage";
+import Navbar from "./components/Portfolio/Navbar";
 
 import "./App.css";
 
