@@ -4,10 +4,16 @@ $font-color: #736a6a;
 
 @import "./Navbar";
 @import "../UI/Card";
+@import "./Animation";
 
 body {
   background: $second-color;
 }
 
+.homepage {
+  margin-top: -15%;
+}
 .top-section {
+  display: flex;
+  justify-content: space-evenly;
 }

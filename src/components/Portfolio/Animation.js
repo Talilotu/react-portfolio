@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-
 import { useTransition, config, animated } from "react-spring";
 
-function Toggle() {
+import "./Homepage.css";
+
+function Animation() {
   const [toggle, set] = useState(false);
   const transitions = useTransition(toggle, {
     from: { position: "absolute", opacity: 0 },
@@ -20,8 +21,9 @@ function Toggle() {
           position: "absolute",
           opacity: opacity.to({ range: [0.0, 1.0], output: [0, 1] }),
         }}
+        className="animation"
       >
-        <img src="../images/coding.png" className="img-fluid" width="100" />
+        <img src="../images/coding.png" className="img-fluid" />
       </animated.div>
     ) : (
       <animated.div
@@ -29,14 +31,12 @@ function Toggle() {
           position: "absolute",
           opacity: opacity.to({ range: [1.0, 0.0], output: [1, 0] }),
         }}
+        className="animation"
       >
-        <img
-          src="../images/proud_coder.png"
-          className="img-fluid"
-          width="100"
-        />
+        <img src="../images/proud_coder.png" className="img-fluid" />
       </animated.div>
     )
   );
 }
-export default Toggle;
+
+export default Animation;

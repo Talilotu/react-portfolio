@@ -22,12 +22,30 @@
   background: -webkit-gradient(linear, left bottom, left top, from(#feada6), to(#f5efef));
   background: linear-gradient(to top, #feada6 0%, #f5efef 100%);
   margin: 0 auto;
-  padding: 180px 100px;
+  padding: 220px 100px;
   border: none;
   border-radius: 0;
 }
 
+.animation img {
+  width: 40%;
+  border-radius: 50%;
+}
+
 body {
   background: #ffebeb;
+}
+
+.homepage {
+  margin-top: -15%;
+}
+
+.top-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=Homepage.css.map */
