@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../UI/Card";
-import Transition from "./Transition";
 
 import "./Homepage.css";
 
@@ -12,7 +11,6 @@ const Homepage = () => {
           <div className="col-4">
             <p>👋🏼 Hi, I am</p>
             <h1>Akanesi Tohotoa</h1>
-            <Transition />
           </div>
           <div className="col-4">One of two columns</div>
         </div>
