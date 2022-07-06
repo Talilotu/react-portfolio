@@ -14,7 +14,6 @@ const Homepage = () => {
           <div className="col-6">
             <h1>Hi, I am Akanesi Tohotoa</h1>
             <p>React Developer, Front-end Developer</p>
-            <div></div>
           </div>
         </div>
       </card>
