@@ -19,7 +19,8 @@
 }
 
 .card {
-  background-color: #ff8686;
+  background: -webkit-gradient(linear, left bottom, left top, from(#feada6), to(#f5efef));
+  background: linear-gradient(to top, #feada6 0%, #f5efef 100%);
   margin: 0 auto;
   padding: 180px 100px;
   border: none;
