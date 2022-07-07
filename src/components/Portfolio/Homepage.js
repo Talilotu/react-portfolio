@@ -12,6 +12,7 @@ const Homepage = () => {
         <div className="row container">
           <div className="col-6">
             <h1>Hi, I am Akanesi Tohotoa</h1>
+            <p>React Developer & Front-end Developer, based in Australia</p>
             <button className="btn">React Developer</button>{" "}
             <button className="btn">Front-end Developer</button>
           </div>
