@@ -5,6 +5,7 @@ $font-color: #736a6a;
 @import "./Navbar";
 @import "../UI/Card";
 @import "./Animation";
+@import "./ListSkills";
 
 body {
   background: $second-color;
@@ -19,6 +20,7 @@ body {
   }
 
   button {
+    margin-top: 20px;
     background: $primar-color;
     color: $second-color;
     border: none;

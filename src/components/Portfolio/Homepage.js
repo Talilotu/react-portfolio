@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ListSkills from "./ListSkills";
 
 import Card from "../UI/Card";
 import Animation from "./Animation";
@@ -12,9 +13,10 @@ const Homepage = () => {
         <div className="row container">
           <div className="col-6">
             <h1>Hi, I am Akanesi Tohotoa</h1>
-            <p>React Developer & Front-end Developer, based in Australia</p>
-            <button className="btn">React Developer</button>{" "}
-            <button className="btn">Front-end Developer</button>
+            <p>Front-end Developer & React Developer, based in Australia</p>
+            <button className="btn">Front-end Developer</button>{" "}
+            <button className="btn">React Developer</button>
+            <ListSkills />
           </div>
           <div className="col-4">
             <Animation />

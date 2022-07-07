@@ -32,6 +32,36 @@
   border-radius: 50%;
 }
 
+.list-skills {
+  margin-top: 20px;
+  color: #736a6a;
+}
+
+.list-skills h3 {
+  font-size: 25px;
+}
+
+.list-skills ul {
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.list-skills li {
+  margin-right: 10px;
+  margin: 5px;
+  border: 1px solid #ff8686;
+  padding: 5px 6px;
+  font-size: 13px;
+}
+
 body {
   background: #ffebeb;
 }
@@ -50,6 +80,7 @@ body {
 }
 
 .homepage button {
+  margin-top: 20px;
   background: #ff8686;
   color: #ffebeb;
   border: none;
