@@ -28,7 +28,7 @@
 }
 
 .animation img {
-  width: 40%;
+  width: 50%;
   border-radius: 50%;
 }
 
@@ -40,13 +40,13 @@ body {
   margin-top: -10%;
 }
 
-.homepage .top-section {
+.homepage .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .homepage button {
@@ -57,6 +57,8 @@ body {
 }
 
 .homepage button:hover {
-  background: white;
+  color: #736a6a;
+  -webkit-box-shadow: 5px 5px 5px #736a6a;
+          box-shadow: 5px 5px 5px #736a6a;
 }
 /*# sourceMappingURL=Homepage.css.map */

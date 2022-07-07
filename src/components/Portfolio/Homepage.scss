@@ -13,9 +13,9 @@ body {
 .homepage {
   margin-top: -10%;
 
-  .top-section {
+  .container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   button {
@@ -25,7 +25,8 @@ body {
     border-radius: 4px;
 
     &:hover {
-      background: white;
+      color: #736a6a;
+      box-shadow: 5px 5px 5px $font-color;
     }
   }
 }
