@@ -14,7 +14,7 @@
     display: flex !important;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: end;
+            justify-content: flex-end;
   }
 }
 
@@ -40,12 +40,23 @@ body {
   margin-top: -10%;
 }
 
-.top-section {
+.homepage .top-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.homepage button {
+  background: #ff8686;
+  color: #ffebeb;
+  border: none;
+  border-radius: 4px;
+}
+
+.homepage button:hover {
+  background: white;
 }
 /*# sourceMappingURL=Homepage.css.map */

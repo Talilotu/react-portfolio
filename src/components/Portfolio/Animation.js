@@ -23,7 +23,7 @@ function Animation() {
         }}
         className="animation"
       >
-        <img src="../images/coding.png" className="img-fluid" />
+        <img src="../images/coding.png" className="img-fluid" alt="coding" />
       </animated.div>
     ) : (
       <animated.div
@@ -33,7 +33,11 @@ function Animation() {
         }}
         className="animation"
       >
-        <img src="../images/proud_coder.png" className="img-fluid" />
+        <img
+          src="../images/proud_coder.png"
+          className="img-fluid"
+          alt="proud-coder"
+        />
       </animated.div>
     )
   );
