@@ -13,7 +13,7 @@ const Homepage = () => {
         <div className="row container">
           <div className="col-6">
             <h1>Hi, I am Akanesi Tohotoa</h1>
-            <p>Front-end Developer & React Developer, based in Australia</p>
+            <p>Front-end Developer and React Developer, based in Australia</p>
             <button className="btn">Front-end Developer</button>{" "}
             <button className="btn">React Developer</button>
             <ListSkills />
