@@ -14,8 +14,8 @@ const Homepage = () => {
           <div className="col-6">
             <h1>Hi, I am Akanesi Tohotoa</h1>
             <p>Front-end Developer and React Developer, based in Australia</p>
-            <button className="btn">Front-end Developer</button>{" "}
-            <button className="btn">React Developer</button>
+            <button className="btn">Front-end Skills</button>{" "}
+            <button className="btn">React Skills</button>
             <ListSkills />
           </div>
           <div className="col-4">

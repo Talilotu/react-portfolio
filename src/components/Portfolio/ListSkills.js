@@ -24,7 +24,7 @@ const ListSkills = () => {
     "Redux",
     "React Router",
     "context API",
-    "Http Requests",
+    "HTTP Requests",
     "Animation",
     "Unit Tests",
   ];
