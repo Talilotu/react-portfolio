@@ -62,10 +62,18 @@
   font-size: 13px;
 }
 
-.button {
+.skills {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.skills .btn {
+  margin-right: 10px;
+}
+
+.skills button {
+  margin-bottom: 15px;
   margin-top: 20px;
   background: #ff8686;
   color: #ffebeb;
@@ -73,21 +81,10 @@
   border-radius: 4px;
 }
 
-.button:hover {
+.skills button:hover {
   color: #736a6a;
   -webkit-box-shadow: 5px 5px 5px #736a6a;
           box-shadow: 5px 5px 5px #736a6a;
-}
-
-.skills-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 15px;
-}
-
-.skills-button .btn {
-  margin-right: 10px;
 }
 
 body {
