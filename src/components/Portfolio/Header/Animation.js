@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useTransition, config, animated } from "react-spring";
 
-import "./Homepage.css";
+import "./Header.css";
 
 function Animation() {
   const [toggle, set] = useState(false);

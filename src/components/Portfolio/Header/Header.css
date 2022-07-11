@@ -66,11 +66,11 @@ body {
   background: #ffebeb;
 }
 
-.homepage {
+.Header {
   margin-top: -10%;
 }
 
-.homepage .container {
+.Header .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,7 +79,7 @@ body {
           justify-content: center;
 }
 
-.homepage button {
+.Header button {
   margin-top: 20px;
   background: #ff8686;
   color: #ffebeb;
@@ -87,9 +87,9 @@ body {
   border-radius: 4px;
 }
 
-.homepage button:hover {
+.Header button:hover {
   color: #736a6a;
   -webkit-box-shadow: 5px 5px 5px #736a6a;
           box-shadow: 5px 5px 5px #736a6a;
 }
-/*# sourceMappingURL=Homepage.css.map */
+/*# sourceMappingURL=Header.css.map */

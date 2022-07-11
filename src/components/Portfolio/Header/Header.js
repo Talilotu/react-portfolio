@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import ListSkills from "./ListSkills";
 
-import Card from "../UI/Card";
+import Card from "../../UI/Card";
 import Animation from "./Animation";
 
-import "./Homepage.css";
+import "./Header.css";
 
-const Homepage = () => {
+function Header() {
   return (
     <Card>
-      <div className="homepage">
+      <div className="Header">
         <div className="row container">
           <div className="col-6">
             <h1>Hi, I am Akanesi Tohotoa</h1>
@@ -25,6 +25,6 @@ const Homepage = () => {
       </div>
     </Card>
   );
-};
+}
 
-export default Homepage;
+export default Header;

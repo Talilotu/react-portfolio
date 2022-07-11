@@ -1,5 +1,5 @@
 import React from "react";
-import Homepage from "./components/Portfolio/Homepage";
+import Header from "./components/Portfolio/Header/Header";
 import Navbar from "./components/Portfolio/Navbar";
 
 import "./App.css";
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Homepage />
+      <Header />
     </div>
   );
 }

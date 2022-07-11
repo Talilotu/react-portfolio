@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./Homepage.css";
+import "../Portfolio/Header/Header.css";
 
 const Navbar = () => {
   return (
