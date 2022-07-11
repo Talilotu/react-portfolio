@@ -1,8 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Button from "../../UI/Button";
+
+import "./Header.css";
 
 const Skills = (props) => {
   return (
-    <div className="skills">
+    <Fragment>
+      <div className="skills-button">
+        <Button className="btn">Front-end Skills</Button>
+        {""} <Button className="btn">React Skills</Button>
+      </div>
       <div className="front-end">
         <h3>Front-end skills</h3>
         <ul>{props.frontEndSkills}</ul>
@@ -13,7 +20,7 @@ const Skills = (props) => {
         <p>React Hooks:</p>
         <ul>{props.reactHooks}</ul>
       </div>
-    </div>
+    </Fragment>
   );
 };
 export default Skills;

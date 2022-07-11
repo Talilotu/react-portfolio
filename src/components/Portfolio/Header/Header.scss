@@ -6,6 +6,8 @@ $font-color: #736a6a;
 @import "../../UI/Card";
 @import "./Animation";
 @import "./ListSkills";
+@import "../../UI/Button";
+@import "./Skills";
 
 body {
   background: $second-color;
@@ -17,18 +19,5 @@ body {
   .container {
     display: flex;
     justify-content: center;
-  }
-
-  button {
-    margin-top: 20px;
-    background: $primar-color;
-    color: $second-color;
-    border: none;
-    border-radius: 4px;
-
-    &:hover {
-      color: #736a6a;
-      box-shadow: 5px 5px 5px $font-color;
-    }
   }
 }

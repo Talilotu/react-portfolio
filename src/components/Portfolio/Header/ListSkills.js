@@ -57,6 +57,7 @@ const ListSkills = () => {
         reactHooks={reactHooksList}
       />
     </div>
+    //Forwarding the list to skills component.
   );
 };
 
