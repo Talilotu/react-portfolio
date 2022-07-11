@@ -1,7 +1,8 @@
 import React from "react";
+import Skills from "./Skills";
 
 const ListSkills = () => {
-  const skills = [
+  const frontEnd = [
     "React js",
     "Next.js",
     "TypeScript",
@@ -19,7 +20,7 @@ const ListSkills = () => {
     "Responsive",
   ];
 
-  const reacts = [
+  const react = [
     "React Hooks",
     "Redux",
     "React Router",
@@ -38,24 +39,23 @@ const ListSkills = () => {
     "custom hooks",
   ];
 
-  const listSkills = skills.map((skill, index) => <li>{skill}</li>);
+  const frontEndList = frontEnd.map((skill, index) => (
+    <li key={index}>{skill}</li>
+  ));
 
-  const reactSkills = reacts.map((react, index) => <li>{react}</li>);
+  const reactList = react.map((react, index) => <li key={index}>{react}</li>);
 
-  const reactHooks = hooks.map((hook, index) => <li>{hook}</li>);
+  const reactHooksList = hooks.map((hook, index) => (
+    <li key={index}>{hook}</li>
+  ));
 
   return (
     <div className="list-skills">
-      <div className="front-end">
-        <h3>Front-end skills</h3>
-        <ul>{listSkills}</ul>
-      </div>
-      <div className="react-skills">
-        <h3>React skills</h3>
-        <ul>{reactSkills}</ul>
-        <p>React Hooks:</p>
-        <ul>{reactHooks}</ul>
-      </div>
+      <Skills
+        frontEndSkills={frontEndList}
+        reactSkills={reactList}
+        reactHooks={reactHooksList}
+      />
     </div>
   );
 };
