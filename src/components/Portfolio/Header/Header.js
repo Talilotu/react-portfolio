@@ -8,7 +8,7 @@ import "./Header.css";
 function Header() {
   return (
     <Card>
-      <Fragment className="Header">
+      <Fragment>
         <div className="row container">
           <div className="col-6">
             <h1>Hi, I am Akanesi Tohotoa</h1>

@@ -13,11 +13,8 @@ body {
   background: $second-color;
 }
 
-.Header {
-  margin-top: -10%;
-
-  .container {
-    display: flex;
-    justify-content: center;
-  }
+.container {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
 }
