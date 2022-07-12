@@ -3,7 +3,7 @@ import { useTransition, config, animated } from "react-spring";
 
 import "./Header.css";
 
-function Animation() {
+const Animation = () => {
   const [toggle, set] = useState(false);
   const transitions = useTransition(toggle, {
     from: { position: "absolute", opacity: 0 },
@@ -14,6 +14,7 @@ function Animation() {
     config: config.molasses,
     onRest: () => set(!toggle),
   });
+
   return transitions(({ opacity }, item) =>
     item ? (
       <animated.div
@@ -41,6 +42,6 @@ function Animation() {
       </animated.div>
     )
   );
-}
+};
 
 export default Animation;

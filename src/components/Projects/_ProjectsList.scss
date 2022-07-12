@@ -3,8 +3,12 @@
   background: #f7938a;
   border-radius: 4px;
 
-  & a {
+  a {
     background: #f6e2e1;
+
+    & hover {
+      background: #f7938a;
+    }
   }
 }
 
