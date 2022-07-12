@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../Header/Header.css";
+
 const Card = (props) => {
   const classes = "card " + props.className;
 
