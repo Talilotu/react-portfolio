@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import ListSkills from "./ListSkills";
-import Card from "../../UI/Card";
+import Card from "../UI/Card";
 import Animation from "./Animation";
 
 import "./Header.css";
