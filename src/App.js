@@ -1,6 +1,7 @@
 import React from "react";
-import Header from "./components/Portfolio/Header/Header";
-import Navbar from "./components/Portfolio/Navbar";
+import Header from "./components/Header/Header";
+import Navbar from "./components/UI/Navbar";
+import Projects from "./components/Projects/Projects";
 
 import "./App.css";
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
+      <Projects />
     </div>
   );
 }

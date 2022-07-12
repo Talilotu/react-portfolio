@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AACE,SADO,CACP,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "Projects.scss",
+        "_ProjectsList.scss"
+    ],
+    "names": [],
+    "file": "Projects.css"
+}
