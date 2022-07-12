@@ -44,12 +44,7 @@ const Skills = (props) => {
           </span>
         </button>
         {""}{" "}
-        <button
-          className="btn"
-          type="button"
-          onClick={ReactSkillsHandler}
-          onChange
-        >
+        <button className="btn" type="button" onClick={ReactSkillsHandler}>
           React Skills {reactPlusIcon && <FontAwesomeIcon icon={faPlus} />}
           {reactCrossIcon && <FontAwesomeIcon icon={faXmark} />}
         </button>

@@ -1,5 +1,6 @@
-li {
-  list-style: none;
+.projects-list {
+  padding: 0;
+  background: #ff8686;
 }
 
 .Projects h1 {
