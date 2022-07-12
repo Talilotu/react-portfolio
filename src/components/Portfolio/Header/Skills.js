@@ -10,37 +10,48 @@ const Skills = (props) => {
   const [reactList, setReactList] = useState(false);
   const [plusIcon, setPlusIcon] = useState(true);
   const [crossIcon, setCrossIcon] = useState(false);
+  const [reactPlusIcon, setReactPlusIcon] = useState(true);
+  const [reactCrossIcon, setReactCrossIcon] = useState(false);
 
   const FrontEndSkillsHandler = (event) => {
     event.preventDefault();
     setFrontEndList(true);
     setReactList(false);
-    setPlusIcon(true);
-    setCrossIcon(false);
+    setPlusIcon(false);
+    setCrossIcon(true);
+    setReactPlusIcon(true);
+    setReactCrossIcon(false);
   };
 
   const ReactSkillsHandler = (event) => {
     event.preventDefault();
     setReactList(true);
     setFrontEndList(false);
-    setCrossIcon(true);
-    setPlusIcon(false);
+    setReactPlusIcon(false);
+    setReactCrossIcon(true);
+    setPlusIcon(true);
+    setCrossIcon(false);
   };
 
   return (
     <Fragment>
       <div className="skills">
         <button className="btn" type="button" onClick={FrontEndSkillsHandler}>
-          Front-end Skills{" "}
+          Front-end Skills {""}
           <span>
             {plusIcon && <FontAwesomeIcon icon={faPlus} />}
             {crossIcon && <FontAwesomeIcon icon={faXmark} />}
           </span>
         </button>
         {""}{" "}
-        <button className="btn" type="button" onClick={ReactSkillsHandler}>
-          React Skills {plusIcon && <FontAwesomeIcon icon={faPlus} />}
-          {crossIcon && <FontAwesomeIcon icon={faXmark} />}
+        <button
+          className="btn"
+          type="button"
+          onClick={ReactSkillsHandler}
+          onChange
+        >
+          React Skills {reactPlusIcon && <FontAwesomeIcon icon={faPlus} />}
+          {reactCrossIcon && <FontAwesomeIcon icon={faXmark} />}
         </button>
       </div>
       <div className="front-end">
