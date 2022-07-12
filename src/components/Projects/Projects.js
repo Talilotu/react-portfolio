@@ -13,57 +13,28 @@ const projects = [
   {
     id: "p1",
     name: "React Weather App",
-    image: (
-      <img
-        src={ReactWeatherApp}
-        className="rounded-3"
-        alt="Weather-App"
-        width="290"
-      />
-    ),
+    image: <img src={ReactWeatherApp} alt="Weather-App" />,
     url: "link",
     description: "I built this with react js",
   },
   {
     id: "p2",
     name: "React Dictionary App",
-    image: (
-      <img
-        src={DictionaryApp}
-        className="rounded-3"
-        alt="Dictionary-App"
-        width="290"
-        height="230"
-      />
-    ),
+    image: <img src={DictionaryApp} alt="Dictionary-App" height="230" />,
     url: "link",
     description: "I built this with react js",
   },
   {
     id: "p3",
     name: "Expenses Tracker App",
-    image: (
-      <img
-        src={ExpenseApp}
-        className="rounded-3"
-        alt="Dictionary-App"
-        width="290"
-      />
-    ),
+    image: <img src={ExpenseApp} alt="Dictionary-App" />,
     url: "link",
     description: "I built this app using react js",
   },
   {
     id: "p3",
     name: "Responsive Website",
-    image: (
-      <img
-        src={Portfolio}
-        className="rounded-3"
-        alt="Dictionary-App"
-        width="290"
-      />
-    ),
+    image: <img src={Portfolio} alt="Dictionary-App" />,
     url: "link",
     description: "I built this app using react js",
   },
@@ -83,7 +54,7 @@ const Projects = () => {
 
   return (
     <Card>
-      <div className="Projects">
+      <div className="projects">
         <h1>Featured Projects</h1>
         <ul>{projectsList}</ul>
       </div>

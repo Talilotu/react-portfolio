@@ -1,4 +1,16 @@
 .projects-list {
   padding: 0;
-  background: $primar-color;
+  background: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
+  border-radius: 6px;
+
+  & a {
+    background: #f7938a;
+  }
+}
+
+.projects img {
+  border-radius: 4px;
+  width: 300px;
+  display: block;
+  margin: 10px auto;
 }
