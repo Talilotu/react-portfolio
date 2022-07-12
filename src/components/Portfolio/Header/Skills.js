@@ -1,32 +1,46 @@
 import React, { Fragment, useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import "./Header.css";
 
 const Skills = (props) => {
   const [frontEndList, setFrontEndList] = useState(true);
   const [reactList, setReactList] = useState(false);
+  const [plusIcon, setPlusIcon] = useState(true);
+  const [crossIcon, setCrossIcon] = useState(false);
 
   const FrontEndSkillsHandler = (event) => {
     event.preventDefault();
     setFrontEndList(true);
     setReactList(false);
+    setPlusIcon(true);
+    setCrossIcon(false);
   };
 
   const ReactSkillsHandler = (event) => {
     event.preventDefault();
     setReactList(true);
     setFrontEndList(false);
+    setCrossIcon(true);
+    setPlusIcon(false);
   };
 
   return (
     <Fragment>
       <div className="skills">
         <button className="btn" type="button" onClick={FrontEndSkillsHandler}>
-          Front-end Skills +
+          Front-end Skills{" "}
+          <span>
+            {plusIcon && <FontAwesomeIcon icon={faPlus} />}
+            {crossIcon && <FontAwesomeIcon icon={faXmark} />}
+          </span>
         </button>
         {""}{" "}
         <button className="btn" type="button" onClick={ReactSkillsHandler}>
-          React Skills +
+          React Skills {plusIcon && <FontAwesomeIcon icon={faPlus} />}
+          {crossIcon && <FontAwesomeIcon icon={faXmark} />}
         </button>
       </div>
       <div className="front-end">

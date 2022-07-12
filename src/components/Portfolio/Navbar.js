@@ -6,7 +6,10 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a
+          className="navbar-brand"
+          href="https://shiny-pie-937396.netlify.app/"
+        >
           AT
         </a>
         <button
@@ -23,22 +26,35 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="https://shiny-pie-937396.netlify.app/"
+              >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://shiny-pie-937396.netlify.app/"
+              >
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://shiny-pie-937396.netlify.app/"
+              >
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a
+                className="nav-link"
+                href="https://shiny-pie-937396.netlify.app/"
+              >
                 Contact
               </a>
             </li>
