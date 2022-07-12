@@ -12,9 +12,10 @@ const Projects = (props) => {
       <div className="card-body">
         <h5 className="card-title">{props.name}</h5>
         <p className="card-text">{props.description}</p>
-        <a href="https://shiny-pie-937396.netlify.app/" className="btn">
-          See Project
+        <a href={props.url} className="btn" target="_blank">
+          See project
         </a>
+        <div>{props.id}</div>
       </div>
     </li>
   );
