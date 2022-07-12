@@ -6,7 +6,7 @@ const Projects = (props) => {
   return (
     <li
       className="card projects-list"
-      style={{ width: "20rem", height: "30rem" }}
+      style={{ width: "16rem", height: "30rem" }}
     >
       <div className="card-img-top">{props.image}</div>
       <div className="card-body">
@@ -15,7 +15,6 @@ const Projects = (props) => {
         <a href={props.url} className="btn" target="_blank">
           See project
         </a>
-        <div>{props.id}</div>
       </div>
     </li>
   );
