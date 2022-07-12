@@ -1,4 +1,18 @@
+li {
+  list-style: none;
+}
+
 .Projects h1 {
   text-align: center;
+}
+
+.Projects ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=Projects.css.map */
