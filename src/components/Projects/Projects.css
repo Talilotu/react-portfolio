@@ -1,12 +1,11 @@
 .projects-list {
   padding: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(#feada6), to(#f5efef));
-  background: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
-  border-radius: 6px;
+  background: #f7938a;
+  border-radius: 4px;
 }
 
 .projects-list a {
-  background: #f7938a;
+  background: #f5efef;
 }
 
 .projects img {
