@@ -63,7 +63,7 @@ const Projects = () => {
   return (
     <Card>
       <div className="projects">
-        <h1>Featured Projects</h1>
+        <h1>Projects I've built</h1>
         <ul>{projectsList}</ul>
       </div>
     </Card>
