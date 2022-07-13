@@ -6,7 +6,7 @@ const Projects = (props) => {
   return (
     <li
       className="card projects-list"
-      style={{ width: "16rem", height: "30rem" }}
+      style={{ width: "16rem", height: "40rem" }}
     >
       <div className="card-img-top">{props.image}</div>
       <div className="card-body">
