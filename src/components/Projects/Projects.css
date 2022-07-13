@@ -9,6 +9,12 @@
   margin-top: -15px;
 }
 
+.projects-list a {
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-style: italic;
+}
+
 .projects-list .project-url {
   margin-top: 5px;
   background: #f8d3d0;
