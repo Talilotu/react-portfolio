@@ -10,7 +10,7 @@ function Header() {
     <Card>
       <Fragment>
         <div className="row container">
-          <div className="col-6">
+          <div className="col-lg-6">
             <h1>Hi, I am Akanesi Tohotoa</h1>
             <p>Front-end Developer and React Developer, based in Australia</p>
             <p>
@@ -26,7 +26,7 @@ function Header() {
             </p>
             <ListSkills />
           </div>
-          <div className="col-6">
+          <div className="col-lg-4">
             <Animation />
           </div>
         </div>
