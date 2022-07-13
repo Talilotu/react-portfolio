@@ -12,7 +12,7 @@ const Projects = (props) => {
       <div className="card-body">
         <h5 className="card-title">{props.name}</h5>
         <p className="card-text">{props.description}</p>
-        <a href={props.url} className="btn" target="_blank">
+        <a href={props.url} className="btn" target="_blank" rel="noreferrer">
           See project
         </a>
       </div>

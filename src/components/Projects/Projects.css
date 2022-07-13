@@ -8,8 +8,8 @@
   background: #f6e2e1;
 }
 
-.projects-list a hover {
-  background: #f7938a;
+.projects-list a:hover {
+  background: #f6c3be;
 }
 
 .projects img {
