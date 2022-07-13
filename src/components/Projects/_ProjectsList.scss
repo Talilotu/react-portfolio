@@ -8,12 +8,21 @@
     margin-top: -15px;
   }
 
-  a {
+  .project-url {
     margin-top: 5px;
     background: #f8d3d0;
 
     &:hover {
-      background: #f6c3be;
+      background: #f5b6b1;
+    }
+  }
+
+  .source-url {
+    margin-top: 5px;
+    background: #f5b6b1;
+
+    &:hover {
+      background: #f8d3d0;
     }
   }
 

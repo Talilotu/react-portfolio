@@ -13,10 +13,20 @@ const Projects = (props) => {
         <h2 className="card-title">{props.name}</h2>
         <p className="card-text">{props.description}</p>
         <span className="url">
-          <a href={props.url} className="btn" target="_blank" rel="noreferrer">
+          <a
+            href={props.projectUrl}
+            className="btn project-url"
+            target="_blank"
+            rel="noreferrer"
+          >
             See project
           </a>
-          <a href={props.url} className="btn" target="_blank" rel="noreferrer">
+          <a
+            href={props.sourceUrl}
+            className="btn source-url"
+            target="_blank"
+            rel="noreferrer"
+          >
             open source
           </a>
         </span>

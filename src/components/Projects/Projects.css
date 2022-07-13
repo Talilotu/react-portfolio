@@ -9,13 +9,22 @@
   margin-top: -15px;
 }
 
-.projects-list a {
+.projects-list .project-url {
   margin-top: 5px;
   background: #f8d3d0;
 }
 
-.projects-list a:hover {
-  background: #f6c3be;
+.projects-list .project-url:hover {
+  background: #f5b6b1;
+}
+
+.projects-list .source-url {
+  margin-top: 5px;
+  background: #f5b6b1;
+}
+
+.projects-list .source-url:hover {
+  background: #f8d3d0;
 }
 
 .projects-list .url {
