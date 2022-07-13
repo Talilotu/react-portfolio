@@ -2,9 +2,10 @@
   padding: 0;
   background: #f7938a;
   border-radius: 4px;
+  margin-top: 30px;
 
   a {
-    background: #f6e2e1;
+    background: #f8d3d0;
 
     &:hover {
       background: #f6c3be;
@@ -14,7 +15,8 @@
 
 .projects img {
   border-radius: 4px;
-  width: 240px;
+  width: 370px;
+  height: 250px;
   display: block;
   margin: 10px auto;
 }

@@ -7,6 +7,7 @@ import ReactWeatherApp from "../../images/react-weatherapp.png";
 import ExpenseApp from "../../images/expense-app.png";
 import Portfolio from "../../images/portfolio.png";
 import WeatherApp from "../../images/weather-app.png";
+import ComingSoon from "../../images/coming-soon.png";
 
 import "./Projects.css";
 
@@ -22,7 +23,7 @@ const projects = [
   {
     id: "p2",
     name: "Dictionary App",
-    image: <img src={DictionaryApp} alt="React Dictionary App" height="200" />,
+    image: <img src={DictionaryApp} alt="React Dictionary App" />,
     url: "https://euphonious-profiterole-200b68.netlify.app/",
     description:
       "I built this dictionary app using react js, 2 active APIs and advanced CSS. I fetched the API from two different sources, one for the dictionary definitions, and one for the photo at the bottom of the app. When you search a word, it not only shows the definitions but also photos of that word.",
@@ -50,6 +51,14 @@ const projects = [
     url: "https://roaring-horse-810c72.netlify.app/",
     description:
       "This was my first weather app which I built with HTML, vanilla Javascript, an active API to fetch the weather data from another source, and advanced CSS.",
+  },
+  {
+    id: "p6",
+    name: "Restaurant App",
+    image: <img src={ComingSoon} alt="Coming Soon" />,
+    url: "",
+    description:
+      "I am currently building this app using react js. COMING SOON!!!",
   },
 ];
 
