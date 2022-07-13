@@ -1,6 +1,8 @@
 @import "./ProjectsList";
 
 .projects {
+  margin-top: -50px;
+
   h1 {
     text-align: center;
   }
@@ -9,6 +11,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }

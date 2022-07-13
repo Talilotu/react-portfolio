@@ -4,12 +4,22 @@
   border-radius: 4px;
   margin-top: 30px;
 
+  h2 {
+    margin-top: -15px;
+  }
+
   a {
+    margin-top: 5px;
     background: #f8d3d0;
 
     &:hover {
       background: #f6c3be;
     }
+  }
+
+  .url {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -18,5 +28,5 @@
   width: 370px;
   height: 250px;
   display: block;
-  margin: 10px auto;
+  margin: 15px auto;
 }

@@ -5,7 +5,12 @@
   margin-top: 30px;
 }
 
+.projects-list h2 {
+  margin-top: -15px;
+}
+
 .projects-list a {
+  margin-top: 5px;
   background: #f8d3d0;
 }
 
@@ -13,12 +18,25 @@
   background: #f6c3be;
 }
 
+.projects-list .url {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .projects img {
   border-radius: 4px;
   width: 370px;
   height: 250px;
   display: block;
-  margin: 10px auto;
+  margin: 15px auto;
+}
+
+.projects {
+  margin-top: -50px;
 }
 
 .projects h1 {
@@ -34,6 +52,6 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=Projects.css.map */
