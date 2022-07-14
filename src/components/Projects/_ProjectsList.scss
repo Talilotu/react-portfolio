@@ -44,3 +44,13 @@
   display: block;
   margin: 15px auto;
 }
+
+@media (max-width: 991.98px) {
+  .projects-list {
+    margin-top: 10px;
+  }
+
+  .projects img {
+    height: 240px;
+  }
+}

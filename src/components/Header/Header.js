@@ -10,7 +10,7 @@ function Header() {
     <Card>
       <Fragment>
         <div className="row container">
-          <div className="col-lg-6">
+          <div className="col-lg-6 header">
             <h1>Hi, I am Akanesi Tohotoa</h1>
             <h5>Front-end Developer and React Developer, based in Australia</h5>
             <p className="mt-4">

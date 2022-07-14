@@ -50,6 +50,15 @@
   margin: 15px auto;
 }
 
+@media (max-width: 991.98px) {
+  .projects-list {
+    margin-top: 10px;
+  }
+  .projects img {
+    height: 240px;
+  }
+}
+
 .projects {
   margin-top: -50px;
 }
@@ -67,6 +76,14 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-top: 20px;
+}
+
+@media (max-width: 991.98px) {
+  .projects {
+    margin-top: -20px;
+  }
+  ul {
+    padding-left: 0 !important;
+  }
 }
 /*# sourceMappingURL=Projects.css.map */
