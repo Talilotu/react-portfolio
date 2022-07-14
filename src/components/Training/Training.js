@@ -8,14 +8,13 @@ const Training = () => {
   return (
     <Card>
       <div className="training">
-        <h1>Training & Skills </h1>
+        <h1>Training and Skills </h1>
         <p>
           I have learned an enormous amount of front-end development and react
-          technologies and skills from these online courses.
+          js technologies and skills from these online courses.
         </p>
         <h2>Courses</h2>
         <h3>SheCodes Coding Workshops</h3>
-        <h4>View Certificates</h4>
         <Certificates />
         <h3>Udemy: React - The Complete Guide</h3>
         <h5>

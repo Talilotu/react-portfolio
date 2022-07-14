@@ -1,4 +1,12 @@
-.certificates {
+.certificates ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.certificates ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,13 +14,26 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.certificates button {
-  margin: 10px auto;
+.certificates a {
+  text-align: start;
+  margin: 5px;
+  background: #ff8686;
+  color: #ffebeb;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.certificates a:hover {
+  color: #736a6a;
+  -webkit-box-shadow: 5px 5px 5px #736a6a;
+          box-shadow: 5px 5px 5px #736a6a;
 }
 
 .training {

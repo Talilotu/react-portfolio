@@ -1,9 +1,29 @@
 .certificates {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
 
-  button {
-    margin: 10px auto;
+    li {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  a {
+    text-align: start;
+    margin: 5px;
+    background: #ff8686;
+    color: #ffebeb;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    text-decoration: none;
+
+    &:hover {
+      color: #736a6a;
+      box-shadow: 5px 5px 5px #736a6a;
+    }
   }
 }
