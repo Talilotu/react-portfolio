@@ -32,4 +32,10 @@ h1 {
 .contact a:hover {
   background: #f7938a;
 }
+
+@media (max-width: 991.98px) {
+  .contact {
+    padding: 30px 20px 10px 20px;
+  }
+}
 /*# sourceMappingURL=Contact.css.map */

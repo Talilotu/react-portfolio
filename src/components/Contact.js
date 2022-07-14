@@ -12,7 +12,7 @@ const Contact = () => {
     <Card>
       <h1>Contact Me</h1>
       <div className="contact">
-        <div>
+        <div className="d-none d-lg-block">
           <img
             src={contact}
             className="img-fluid"
