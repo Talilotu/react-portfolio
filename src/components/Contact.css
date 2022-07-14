@@ -10,10 +10,26 @@ h1 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .contact img {
-  border-radius: 8px;
+  border-radius: 20px;
+}
+
+.contact .email img {
+  border-radius: 0;
+}
+
+.contact a {
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid #f7938a;
+  border-radius: 4px;
+  color: #000;
+}
+
+.contact a:hover {
+  background: #f7938a;
 }
 /*# sourceMappingURL=Contact.css.map */

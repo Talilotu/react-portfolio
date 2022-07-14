@@ -5,9 +5,25 @@ h1 {
   padding: 80px 20px;
   display: flex;
   justify-content: space-evenly;
-  font-size: 20px;
+  font-size: 15px;
 
   img {
-    border-radius: 8px;
+    border-radius: 20px;
+  }
+
+  .email img {
+    border-radius: 0;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid #f7938a;
+    border-radius: 4px;
+    color: #000;
+
+    &:hover {
+      background: #f7938a;
+    }
   }
 }

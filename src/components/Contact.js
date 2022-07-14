@@ -21,14 +21,35 @@ const Contact = () => {
           />
         </div>
         <div className="contact-details">
+          <div className="email">
+            <img src={email} width="50" /> {""}
+            <a href="mailto:nesikaufusi@gmail.com" title="email Akanesi">
+              nesikaufusi@gmail.com
+            </a>
+            <p>Email</p>
+          </div>
+
           <div>
-            <img src={email} width="50" /> Email
+            <img src={github} width="50" />
+            <a
+              href="https://github.com/Talilotu"
+              title="Akanesi github profile"
+              target="blank"
+            >
+              Akanesi T
+            </a>
+            <p>Github</p>
           </div>
           <div>
-            <img src={github} width="50" /> Github
-          </div>
-          <div>
-            <img src={linkedin} width="50" /> Linkedin
+            <img src={linkedin} width="50" />
+            <a
+              href="https://www.linkedin.com/in/akanesi-t-154772239/"
+              title="Akanesi linkedin profile"
+              target="blank"
+            >
+              Akanesi-T
+            </a>
+            <p>Linkedin</p>
           </div>
         </div>
         {/* <div className="row contacts d-lg-flex">
