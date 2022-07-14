@@ -10,6 +10,7 @@ const ListSkills = () => {
     "CSS",
     "SCSS (SASS)",
     "JavaScript",
+    "ES6",
     "Editor",
     "API",
     "GitHub",

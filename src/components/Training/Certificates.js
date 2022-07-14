@@ -53,6 +53,7 @@ const Certificates = (props) => {
                   <li>Editor</li>
                   <li>API</li>
                   <li>Github</li>
+                  <li>ES6</li>
                 </div>
                 <div className="col-lg-5">
                   <li>Bootstrap</li>
