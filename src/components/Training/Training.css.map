@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,aAAa,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,UAAU;CAK5B;;AARD,AAKE,aALW,CAKX,MAAM,CAAC;EACL,MAAM,EAAE,SAAS;CAClB;;ADLH,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,MAAM;CAKhB;;AAND,AAEE,SAFO,CAEP,EAAE;AAFJ,SAAS,CAGP,CAAC,CAAC;EACA,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "Training.scss",
+        "_Certificates.scss"
+    ],
+    "names": [],
+    "file": "Training.css"
+}
