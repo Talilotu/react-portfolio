@@ -54,9 +54,6 @@
   .projects-list {
     margin-top: 10px;
   }
-  .projects-list ul {
-    padding: 0;
-  }
   .projects img {
     height: 240px;
   }
@@ -84,6 +81,9 @@
 @media (max-width: 991.98px) {
   .projects {
     margin-top: -20px;
+  }
+  .projects ul {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=Projects.css.map */
