@@ -1,15 +1,13 @@
 .navbar {
   background: #ffebeb;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
 }
 
-.navbar h3 {
+.navbar h4 {
   padding: 10px;
   border-radius: 50%;
-  background: #ff8686;
-}
-
-.navbar h3:hover {
-  background: #fa9595;
+  border: 2px solid #ff8686;
 }
 
 .navbar a {
@@ -17,8 +15,8 @@
   font-weight: 500;
 }
 
-.navbar a:hover, .navbar a:active {
-  color: red;
+.navbar a:hover {
+  color: #ff8686 !important;
 }
 
 @media (min-width: 992px) {

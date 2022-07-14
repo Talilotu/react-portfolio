@@ -1,14 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import "../Header/Header";
 
 const Navbar = () => {
+  const navlinkStyles = ({ isActive }) => {};
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <NavLink to="/home" className="nav-link">
-          <h3>AT</h3>
+          <h4>AT</h4>
         </NavLink>
         <button
           className="navbar-toggler"
@@ -23,24 +25,28 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item active">
-              <NavLink to="/home" className="nav-link">
+            <li className="nav-item">
+              <NavLink
+                to="/home"
+                activeClassName="is-active"
+                className="nav-link"
+              >
                 Home
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ">
               <NavLink to="/training" className="nav-link">
                 Training
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ">
               <li className="nav-item">
                 <NavLink to="/projects" className="nav-link">
                   Projects
                 </NavLink>
               </li>
             </li>
-            <li className="nav-item">
+            <li className="nav-item {}">
               <NavLink to="/contact" className="nav-link">
                 Contact
               </NavLink>

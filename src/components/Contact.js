@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
         <div className="contact-details">
           <div className="email">
-            <img src={email} width="50" /> {""}
+            <img src={email} width="50" alt="email" /> {""}
             <a href="mailto:nesikaufusi@gmail.com" title="email Akanesi">
               nesikaufusi@gmail.com
             </a>
@@ -30,7 +30,7 @@ const Contact = () => {
           </div>
 
           <div>
-            <img src={github} width="50" />
+            <img src={github} width="50" alt="github" />
             <a
               href="https://github.com/Talilotu"
               title="Akanesi github profile"
@@ -41,7 +41,7 @@ const Contact = () => {
             <p>Github</p>
           </div>
           <div>
-            <img src={linkedin} width="50" />
+            <img src={linkedin} width="50" alt="linkedin" />
             <a
               href="https://www.linkedin.com/in/akanesi-t-154772239/"
               title="Akanesi linkedin profile"
