@@ -45,6 +45,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="open-source">
+        <h5>
+          This website was coded by Akanesi Tohotoa, and it is{" "}
+          <a
+            href="https://github.com/Talilotu/react-portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open sourced
+          </a>
+        </h5>
+      </div>
     </Card>
   );
 };
