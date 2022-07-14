@@ -12,8 +12,8 @@ function Header() {
         <div className="row container">
           <div className="col-lg-6">
             <h1>Hi, I am Akanesi Tohotoa</h1>
-            <p>Front-end Developer and React Developer, based in Australia</p>
-            <p>
+            <h5>Front-end Developer and React Developer, based in Australia</h5>
+            <p className="mt-4">
               Hello and welcome to my portfolio. I decided at the beginning of
               this year to change my career and get into the tech industry. I
               then started taking coding courses, majoring in front-end web
