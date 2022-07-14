@@ -13,6 +13,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Header />
+      <Projects />
       <main>
         <Switch>
           <Route path="/home">
