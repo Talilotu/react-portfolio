@@ -94,7 +94,7 @@ const Projects = () => {
   return (
     <Card>
       <div className="projects">
-        <h1>Projects I've built</h1>
+        <h1>My Projects</h1>
         <ul>{projectsList}</ul>
       </div>
     </Card>

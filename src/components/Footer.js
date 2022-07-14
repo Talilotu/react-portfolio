@@ -1,9 +1,7 @@
 import React from "react";
 import Card from "./UI/Card";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
+import github from "../images/github.png";
 
 import "./Footer.css";
 
@@ -11,53 +9,29 @@ const Footer = () => {
   return (
     <Card>
       <div class="footer">
-        <h1>Contact Me</h1>
+        <div className="d-none d-lg-block">
+          <h1>Get in touch!</h1>
+          <h3>Let's work together</h3>
+        </div>
         <div>
-          <div className="row contacts d-lg-flex">
-            <div className="col-5">
-              <h3>
-                <FontAwesomeIcon icon={faEnvelope} /> Email
-              </h3>
-              <a href="mailto:nesikaufusi@gmail.com" title="email Akanesi">
-                nesikaufusi@gmail.com
-              </a>
-            </div>
-            <div className="col-4">
-              <h3>
-                <img
-                  src={github}
-                  width="40"
-                  className="img-fluid"
-                  alt="github"
-                />{" "}
-                Github
-              </h3>
-              <a
-                href="https://github.com/Talilotu"
-                title="Akanesi github profile"
-                target="blank"
-              >
-                Akanesi T
-              </a>
-            </div>
-            <div className="col-4">
-              <h3>
-                <img
-                  src={linkedin}
-                  width="40"
-                  className="img-fluid"
-                  alt="linkedin"
-                />
-                Linkedin
-              </h3>
-              <a
-                href="https://www.linkedin.com/in/akanesi-t-154772239/"
-                title="Akanesi linkedin profile"
-                target="blank"
-              >
-                Akanesi-T
-              </a>
-            </div>
+          <h4>nesikaufusi@gmail.com</h4>
+          <div className="icons">
+            <a href="https://www.linkedin.com/in/akanesi-t-154772239/">
+              <img
+                src={linkedin}
+                className="img-fluid"
+                width="60"
+                alt="linkedin"
+              ></img>{" "}
+            </a>
+            <a href="https://www.linkedin.com/in/akanesi-t-154772239/">
+              <img
+                src={github}
+                className="img-fluid"
+                width="60"
+                alt="linkedin"
+              ></img>{" "}
+            </a>
           </div>
         </div>
       </div>

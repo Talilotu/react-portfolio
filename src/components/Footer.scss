@@ -1,11 +1,22 @@
 .footer {
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0 80px;
+  background: #f7938a;
+  border-radius: 6px;
 
-  h1 {
-    text-align: center;
+  h3 {
+    color: #645d5d;
   }
 
-  .contacts {
-    flex-wrap: nowrap;
+  img:hover {
+    border-radius: 50%;
+    padding: 5px;
+    background: #f8d3d0;
+  }
+
+  .icons {
+    text-align: center;
   }
 }

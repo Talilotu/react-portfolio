@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+.contact {
+  padding: 80px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.contact img {
+  border-radius: 8px;
+}
+/*# sourceMappingURL=Contact.css.map */
