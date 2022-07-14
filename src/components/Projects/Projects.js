@@ -71,7 +71,7 @@ const projects = [
   },
   {
     id: "p6",
-    name: "Restaurant App",
+    name: "Food Order App",
     image: <img src={ComingSoon} alt="Coming Soon" className="img-fluid" />,
     description:
       "I am currently building this app using react js. COMING SOON!!!",
