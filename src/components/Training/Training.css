@@ -1,3 +1,11 @@
+.certificates {
+  color: #736a6a;
+}
+
+.certificates h3 {
+  font-size: 25x;
+}
+
 .certificates ul {
   list-style: none;
   padding: 0;
@@ -19,21 +27,27 @@
           justify-content: center;
 }
 
-.certificates a {
+.certificates ul a {
   text-align: start;
   margin: 5px;
-  background: #ff8686;
-  color: #ffebeb;
+  background: #f8d3d0;
+  color: #645d5d;
   border: none;
   border-radius: 4px;
   padding: 5px 10px;
   text-decoration: none;
-}
-
-.certificates a:hover {
-  color: #736a6a;
   -webkit-box-shadow: 5px 5px 5px #736a6a;
           box-shadow: 5px 5px 5px #736a6a;
+}
+
+.certificates ul a:hover {
+  color: #000;
+}
+
+.certificates .skills-list li {
+  list-style: square;
+  color: #645d5d;
+  font-weight: 500;
 }
 
 .training {
@@ -41,7 +55,39 @@
 }
 
 .training h1,
-.training p {
+.training p,
+.training h2 {
   text-align: center;
+}
+
+.training h5 {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.training p {
+  font-size: 20px;
+  margin: 0 80px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.training ul {
+  color: #645d5d;
+  font-weight: 500;
+}
+
+.training li {
+  list-style: square;
+}
+
+.training .courses {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #f7938a;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 10px 20px;
 }
 /*# sourceMappingURL=Training.css.map */

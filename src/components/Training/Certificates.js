@@ -42,8 +42,28 @@ const Certificates = (props) => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-4">
             <h3>Skills</h3>
+            <div className="skills-list">
+              <div className="row">
+                <div className="col-lg-6">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>Editor</li>
+                  <li>API</li>
+                  <li>Github</li>
+                </div>
+                <div className="col-lg-5">
+                  <li>Bootstrap</li>
+                  <li>Hosting</li>
+                  <li>Flexbox</li>
+                  <li>SEO</li>
+                  <li>Responsive</li>
+                  <li>React</li>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

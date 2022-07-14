@@ -1,0 +1,13 @@
+.footer {
+  margin: 0 auto;
+}
+
+.footer h1 {
+  text-align: center;
+}
+
+.footer .contacts {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+/*# sourceMappingURL=Footer.css.map */
