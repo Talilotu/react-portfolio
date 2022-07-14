@@ -15,7 +15,9 @@ const projects = [
   {
     id: "p1",
     name: "Weather App",
-    image: <img src={ReactWeatherApp} alt="React Weater App" />,
+    image: (
+      <img src={ReactWeatherApp} alt="React Weater App" className="img-fluid" />
+    ),
     projectUrl: "https://incredible-palmier-66380a.netlify.app/",
     sourceUrl: "https://github.com/Talilotu/react-weather-app",
     description:
@@ -24,7 +26,13 @@ const projects = [
   {
     id: "p2",
     name: "Dictionary App",
-    image: <img src={DictionaryApp} alt="React Dictionary App" />,
+    image: (
+      <img
+        src={DictionaryApp}
+        alt="React Dictionary App"
+        className="img-fluid"
+      />
+    ),
     projectUrl: "https://euphonious-profiterole-200b68.netlify.app/",
     sourceUrl: "https://github.com/Talilotu/react-dictionary-project",
     description:
@@ -33,7 +41,9 @@ const projects = [
   {
     id: "p3",
     name: "Expenses Tracker App",
-    image: <img src={ExpenseApp} alt="Expense tracker app" />,
+    image: (
+      <img src={ExpenseApp} alt="Expense tracker app" className="img-fluid" />
+    ),
     projectUrl: "https://musical-gumption-1fb7ec.netlify.app/",
     sourceUrl: "https://github.com/Talilotu/react-practice-expenses",
     description:
@@ -42,7 +52,9 @@ const projects = [
   {
     id: "p4",
     name: "Responsive Website",
-    image: <img src={Portfolio} alt="Responsive website" />,
+    image: (
+      <img src={Portfolio} alt="Responsive website" className="img-fluid" />
+    ),
     projectUrl: "https://shiny-pie-937396.netlify.app/",
     sourceUrl: "https://github.com/Talilotu/Responsive-Portfolio-Website",
     description:
@@ -51,7 +63,7 @@ const projects = [
   {
     id: "p5",
     name: "Weather App",
-    image: <img src={WeatherApp} alt="Weather App" />,
+    image: <img src={WeatherApp} alt="Weather App" className="img-fluid" />,
     projectUrl: "https://roaring-horse-810c72.netlify.app/",
     sourceUrl: "https://github.com/Talilotu/Weather-App",
     description:
@@ -60,7 +72,7 @@ const projects = [
   {
     id: "p6",
     name: "Restaurant App",
-    image: <img src={ComingSoon} alt="Coming Soon" />,
+    image: <img src={ComingSoon} alt="Coming Soon" className="img-fluid" />,
     description:
       "I am currently building this app using react js. COMING SOON!!!",
   },

@@ -26,7 +26,7 @@ function Header() {
             </p>
             <ListSkills />
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 d-none d-lg-block">
             <Animation />
           </div>
         </div>
