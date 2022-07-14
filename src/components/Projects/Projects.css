@@ -54,6 +54,9 @@
   .projects-list {
     margin-top: 10px;
   }
+  .projects-list ul {
+    padding: 0;
+  }
   .projects img {
     height: 240px;
   }

@@ -44,7 +44,7 @@
   color: #000;
 }
 
-.skills-list li {
+.certificates .skills-list li {
   list-style: square;
   color: #645d5d;
   font-weight: 500;
@@ -88,15 +88,12 @@
 }
 
 @media (max-width: 991.98px) {
-  p {
+  .training p {
     font-size: 18px;
     margin: 20px !important;
   }
-  h2 {
+  .training h2 {
     font-size: 35px;
-  }
-  li {
-    list-style: inside;
   }
 }
 /*# sourceMappingURL=Training.css.map */
