@@ -44,7 +44,6 @@ const Certificates = (props) => {
           </div>
           <div className="col-lg-6">
             <h3>Skills</h3>
-            <li></li>
           </div>
         </div>
       </div>

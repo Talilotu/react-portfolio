@@ -21,6 +21,28 @@ const Training = () => {
           This full and advanced react course teaches me everything I need to
           know about react js.
         </h5>
+        <ul>
+          <div className="row">
+            <div className="col-lg-6">
+              <li>React Hooks</li>
+              <li>CSS Modules</li>
+              <li>Rendering and Conditional Content</li>
+              <li>Debugging</li>
+              <li>Context API</li>
+              <li>Class-based Components</li>
+              <li>Send HTTP Requests</li>
+              <li>Build custom hooks</li>
+            </div>
+            <div className="col-lg-6">
+              <li>Redux</li>
+              <li>React Router</li>
+              <li>Next.js</li>
+              <li>Animation</li>
+              <li>TypeScript</li>
+              <li>Unit Tests</li>
+            </div>
+          </div>
+        </ul>
       </div>
     </Card>
   );
