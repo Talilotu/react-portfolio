@@ -14,7 +14,9 @@ const Footer = () => {
           <h3>Let's work together</h3>
         </div>
         <div>
-          <h4>nesikaufusi@gmail.com</h4>
+          <a href="mailto:nesikaufusi@gmail.com" title="email link">
+            <h4>nesikaufusi@gmail.com</h4>
+          </a>
           <div className="icons">
             <a href="https://www.linkedin.com/in/akanesi-t-154772239/">
               <img

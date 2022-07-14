@@ -10,6 +10,15 @@
     color: #645d5d;
   }
 
+  a {
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+      color: #645d5d;
+    }
+  }
+
   img:hover {
     border-radius: 50%;
     padding: 5px;

@@ -2,13 +2,23 @@
   background: #ffebeb;
 }
 
+.navbar h3 {
+  padding: 10px;
+  border-radius: 50%;
+  background: #ff8686;
+}
+
+.navbar h3:hover {
+  background: #fa9595;
+}
+
 .navbar a {
   color: #736a6a !important;
   font-weight: 500;
 }
 
 .navbar a:hover, .navbar a:active {
-  text-decoration: underline;
+  color: red;
 }
 
 @media (min-width: 992px) {

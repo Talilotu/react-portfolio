@@ -1,13 +1,23 @@
 .navbar {
   background: $second-color;
 
+  h3 {
+    padding: 10px;
+    border-radius: 50%;
+    background: $primar-color;
+
+    &:hover {
+      background: #fa9595;
+    }
+  }
+
   a {
     color: $font-color !important;
     font-weight: 500;
 
     &:hover,
     &:active {
-      text-decoration: underline;
+      color: red;
     }
   }
 

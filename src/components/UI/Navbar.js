@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <NavLink to="/home" className="nav-link">
-          AT
+          <h3>AT</h3>
         </NavLink>
         <button
           className="navbar-toggler"
@@ -23,7 +23,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item">
+            <li className="nav-item active">
               <NavLink to="/home" className="nav-link">
                 Home
               </NavLink>
