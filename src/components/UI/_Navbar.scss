@@ -10,12 +10,13 @@
   }
 
   a {
-    color: $font-color !important;
-    font-weight: 500;
+    color: $font-color;
+    text-decoration: none;
+    margin-right: 10px;
+  }
 
-    &:hover {
-      color: $primar-color !important;
-    }
+  .active {
+    color: $primar-color;
   }
 
   @media (min-width: 992px) {

@@ -11,12 +11,13 @@
 }
 
 .navbar a {
-  color: #736a6a !important;
-  font-weight: 500;
+  color: #736a6a;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
-.navbar a:hover {
-  color: #ff8686 !important;
+.navbar .active {
+  color: #ff8686;
 }
 
 @media (min-width: 992px) {

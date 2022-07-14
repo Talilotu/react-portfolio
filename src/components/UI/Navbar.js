@@ -1,15 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { BrowserRouter } from "react-router-dom";
 
 import "../Header/Header";
 
 const Navbar = () => {
-  const navlinkStyles = ({ isActive }) => {};
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <NavLink to="/home" className="nav-link">
+        <NavLink
+          to="/home"
+          className={({ isActive }) => (isActive ? "link active" : "link)")}
+        >
           <h4>AT</h4>
         </NavLink>
         <button
@@ -28,26 +29,42 @@ const Navbar = () => {
             <li className="nav-item">
               <NavLink
                 to="/home"
-                activeClassName="is-active"
-                className="nav-link"
+                className={({ isActive }) =>
+                  isActive ? "link active" : "link)"
+                }
               >
                 Home
               </NavLink>
             </li>
-            <li className="nav-item ">
-              <NavLink to="/training" className="nav-link">
+            <li className="nav-item">
+              <NavLink
+                to="/training"
+                className={({ isActive }) =>
+                  isActive ? "link active" : "link)"
+                }
+              >
                 Training
               </NavLink>
             </li>
             <li className="nav-item ">
               <li className="nav-item">
-                <NavLink to="/projects" className="nav-link">
+                <NavLink
+                  to="/projects"
+                  className={({ isActive }) =>
+                    isActive ? "link active" : "link)"
+                  }
+                >
                   Projects
                 </NavLink>
               </li>
             </li>
             <li className="nav-item {}">
-              <NavLink to="/contact" className="nav-link">
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive ? "link active" : "link)"
+                }
+              >
                 Contact
               </NavLink>
             </li>
