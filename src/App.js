@@ -23,13 +23,13 @@ function App() {
             <Header />
             <Projects />
           </Route>
-          <Route path="/training" exact>
+          <Route path="/training">
             <Training />
           </Route>
-          <Route path="/projects" exact>
+          <Route path="/projects">
             <Projects />
           </Route>
-          <Route path="/contact" exact>
+          <Route path="/contact">
             <Contact />
           </Route>
         </Switch>
