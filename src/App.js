@@ -1,8 +1,10 @@
 import React from "react";
+import { Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Navbar from "./components/UI/Navbar";
 import Projects from "./components/Projects/Projects";
 import Training from "./components/Training/Training";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -10,13 +12,23 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <Route path="/training">
+        <Training />
+      </Route>
+      <Route path="/contact">
+        <Contact />
+      </Route>
       <Navbar />
       <Header />
       <Projects />
       <Training />
+      <Contact />
       <Footer />
     </div>
   );
 }
 
 export default App;
+
+// my-domain.com/training => Training Component
+// my-domain.com/products => Products Component

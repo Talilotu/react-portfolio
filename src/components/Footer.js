@@ -24,7 +24,13 @@ const Footer = () => {
             </div>
             <div className="col-4">
               <h3>
-                <img src={github} width="40" className="img-fluid" /> Github
+                <img
+                  src={github}
+                  width="40"
+                  className="img-fluid"
+                  alt="github"
+                />{" "}
+                Github
               </h3>
               <a
                 href="https://github.com/Talilotu"
@@ -36,7 +42,12 @@ const Footer = () => {
             </div>
             <div className="col-4">
               <h3>
-                <img src={linkedin} width="40" className="img-fluid" />
+                <img
+                  src={linkedin}
+                  width="40"
+                  className="img-fluid"
+                  alt="linkedin"
+                />
                 Linkedin
               </h3>
               <a
