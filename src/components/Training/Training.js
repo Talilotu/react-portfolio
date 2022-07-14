@@ -32,13 +32,15 @@ const Training = () => {
                 <li>Rendering and Conditional Content</li>
                 <li>Debugging</li>
                 <li>Context API</li>
+              </div>
+              <div className="col-lg-4">
                 <li>Class-based Components</li>
                 <li>Send HTTP Requests</li>
                 <li>Build custom hooks</li>
-              </div>
-              <div className="col-lg-4">
                 <li>Redux</li>
                 <li>React Router</li>
+              </div>
+              <div className="col-lg-4">
                 <li>Next.js</li>
                 <li>Animation</li>
                 <li>TypeScript</li>
