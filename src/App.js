@@ -19,7 +19,7 @@ function App() {
           <Route path="/" exact>
             <Redirect to="/home" />
           </Route>
-          <Route path="/home">
+          <Route path="/home" exact>
             <Header />
             <Projects />
           </Route>
