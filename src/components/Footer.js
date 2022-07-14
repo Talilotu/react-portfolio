@@ -18,7 +18,11 @@ const Footer = () => {
             <h4>nesikaufusi@gmail.com</h4>
           </a>
           <div className="icons">
-            <a href="https://www.linkedin.com/in/akanesi-t-154772239/">
+            <a
+              href="https://www.linkedin.com/in/akanesi-t-154772239/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={linkedin}
                 className="img-fluid"
@@ -26,7 +30,11 @@ const Footer = () => {
                 alt="linkedin"
               ></img>{" "}
             </a>
-            <a href="https://www.linkedin.com/in/akanesi-t-154772239/">
+            <a
+              href="https://github.com/Talilotu"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={github}
                 className="img-fluid"
