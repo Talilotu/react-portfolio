@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "../Header/Header";
 
@@ -6,12 +7,9 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
-        <a
-          className="navbar-brand"
-          href="https://shiny-pie-937396.netlify.app/"
-        >
+        <NavLink to="/home" className="nav-link">
           AT
-        </a>
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -26,37 +24,26 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a
-                className="nav-link active"
-                aria-current="page"
-                href="https://shiny-pie-937396.netlify.app/"
-              >
+              <NavLink to="/home" className="nav-link">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="https://shiny-pie-937396.netlify.app/"
-              >
-                About
-              </a>
+              <NavLink to="/training" className="nav-link">
+                Training
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="https://shiny-pie-937396.netlify.app/"
-              >
-                Projects
-              </a>
+              <li className="nav-item">
+                <NavLink to="/projects" className="nav-link">
+                  Projects
+                </NavLink>
+              </li>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="https://shiny-pie-937396.netlify.app/"
-              >
+              <NavLink to="/contact" className="nav-link">
                 Contact
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

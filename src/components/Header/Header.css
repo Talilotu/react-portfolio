@@ -7,6 +7,10 @@
   font-weight: 500;
 }
 
+.navbar a:hover, .navbar a:active {
+  text-decoration: underline;
+}
+
 @media (min-width: 992px) {
   .navbar .navbar-collapse {
     display: -webkit-box !important;

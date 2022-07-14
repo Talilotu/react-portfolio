@@ -1,9 +1,14 @@
 .navbar {
   background: $second-color;
 
-  & a {
+  a {
     color: $font-color !important;
     font-weight: 500;
+
+    &:hover,
+    &:active {
+      text-decoration: underline;
+    }
   }
 
   @media (min-width: 992px) {
