@@ -36,7 +36,7 @@ const projects = [
     projectUrl: "https://euphonious-profiterole-200b68.netlify.app/",
     sourceUrl: "https://github.com/Talilotu/react-dictionary-project",
     description:
-      "I built this dictionary app using react js, two active APIs and advanced CSS. I fetched the API from two different sources, one for the dictionary definitions, and one for the photo at the bottom of the app. When you search a word, it not only shows the definitions but also photos of that word.",
+      "I built this dictionary app using react js, two active APIs and advanced CSS. I fetched the API from two different sources, one for the dictionary definitions, and one for the photo at the bottom of the app. When you search a word, it not only shows the definitions but also images of that word.",
   },
   {
     id: "p3",
