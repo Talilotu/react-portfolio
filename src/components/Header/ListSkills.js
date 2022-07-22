@@ -4,8 +4,6 @@ import Skills from "./Skills";
 const ListSkills = () => {
   const frontEnd = [
     "React js",
-    "Next.js",
-    "TypeScript",
     "HTML",
     "CSS",
     "SCSS (SASS)",
